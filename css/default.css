@@ -1,0 +1,132 @@
+/* All CSS styles go here */
+@font-face {
+	font-family: octanis-sans;
+	src:url(../fonts/octanis-sans.otf);
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+#container {
+	width: 1100px;
+	height: 100%;
+	position: absolute;
+	left: 41%;
+	margin-left: -550px;
+}
+
+#future {
+	font-family: "octanis-sans";
+	font-size: 140pt;
+	color: #00788A;
+	letter-spacing: .143em;
+	/*positioning*/
+	position: relative;
+	left: 475px;
+	top:-10px;
+}
+
+#great-lakes {
+	font-family: "octanis-sans";
+	font-size: 65pt;
+	color: #00788A;
+	letter-spacing: .085em;
+	/*positioning*/
+	position: relative;
+	left: 65px;
+	top:230px;
+}
+
+#body-copy {
+	font-family: "Gill Sans";
+	font-size: 14pt;
+	color: #808080;
+	line-height: 16.8pt;
+	letter-spacing: 0em;
+	text-align: left;
+	width: 550px;
+	/*positioning*/
+	position: relative;
+	left: 485px;
+	top:-15px;
+}
+#last {
+	position: relative;
+	top: 5px; 
+}
+
+#p-one-title {
+	font-weight:600;
+	letter-spacing: .2em;
+	color: #666666;
+}
+
+
+
+#p-two {
+	width: 530px;
+	position:relative;
+	top: 5px;
+}
+
+#p-two-title {
+	font-weight:600;
+	letter-spacing: .2em;
+	position: relative;
+	top: 20px;
+	color: #666666;
+
+}
+
+
+
+img {
+	width: 675px;
+	/*positioning*/
+	position: absolute;
+	top: -230px;
+	left: 150px;
+	opacity: 0;
+}
+
+#date {
+	font-size: 30pt;
+	position: relative;
+	left:330px;
+}
+
+@-webkit-keyframes r-one {
+	0% {opacity:0;}
+	30% {opacity:100}
+	100% {opacity:0}
+}
+
+#r-one {
+	-webkit-animation:r-one 5s infinite;
+	animation-delay:.5s;
+
+}
+
+#r-two {
+	-webkit-animation:r-one 5s infinite;
+	animation-delay:2s;
+}
+
+#r-three {
+	-webkit-animation:r-one 5s infinite;
+	animation-delay:3s;
+}
+
+#r-four {
+	-webkit-animation:r-one 5s infinite;
+	animation-delay:4s;
+}
+
+#r-five {
+	-webkit-animation:r-one 5s infinite;
+	animation-delay:5s;
+}
+
+
